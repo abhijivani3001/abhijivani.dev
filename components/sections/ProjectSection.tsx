@@ -3,9 +3,9 @@
 import { useEffect, useRef } from "react"
 import useOnScreen from "@/hooks/useOnScreen"
 import useScrollActive from "@/hooks/useScrollActive"
-import ComingSoon from "@/public/assets/projects/coming-soon-1.jpg"
 import InventoryManagement from "@/public/assets/projects/inventory-management-ss.png"
 import MessengerApp from "@/public/assets/projects/messenger-app-ss.png"
+import MultiMonkey from "@/public/assets/projects/multi-monkey-ss.png"
 import RealtimeCodeEditor from "@/public/assets/projects/real-time-code-editor-ss.png"
 import SidcupFamilyGolf from "@/public/assets/projects/sidcup-family-golf-ss.png"
 import SnakeGame from "@/public/assets/projects/snake-game-ss.png"
@@ -172,10 +172,11 @@ const projects: Project[] = [
   {
     id: 6,
     title: "Multi Monkey",
-    description: "Coming Soon...",
+    description:
+      "Multi Monkey is a typing race game built with Vite, React.js, TypeScript, Node.js Express.js & MongoDB. It utilizes TailwindCSS for styling and Shadcn for component styling, offering an engaging and dynamic user experience.",
     techStacks: ["MERN", "Socket.io", "TypeScript"],
-    image: ComingSoon,
-    githubURL: "",
-    githubApi: "",
+    image: MultiMonkey,
+    githubURL: "https://github.com/abhijivani3001/multi-monkey",
+    githubApi: "https://api.github.com/repos/abhijivani3001/multi-monkey",
   },
 ]
